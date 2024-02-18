@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: #F2F2F2;
+}
+
+.hero-class {
+  background-image: url(/LandingPage/assests/bgTwo.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.text-container{
+  max-width: 730px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.hero-paragraph {
+  max-width: 730px;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #9EABB2;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.all-heading-size {
+  font-size: 32px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+  max-width: 730px;
+  line-height: 30px;
+  letter-spacing: -0.51px;
+}
+button {
+  padding: 15px;
+  border-radius: 25px;
+  border: 0;
+  font-size: 18px;
+}
+
+.buttons {
+  max-width: 730px;
+  display: flex;
+  gap: 16px;
+  padding-top: 40px;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+#button-first {
+  background-color: #26BBA4;
+  color: #fff;
+  cursor: pointer;
+  width: 227px;
+  box-shadow: 2px 2px 5px   #26BBA4;
+}
+
+#button-second {
+  background-color: #6174FF;
+  color: #fff;
+  cursor: pointer;
+  width: 227px;
+}
+
+.bottom-button {
+   margin-bottom: 40px;
+}
+.computer-card {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 165px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.computer-image{
+  max-width: 752px;
+}
+.asid-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 336px;
+}
+
+.asid-part p {
+  padding-bottom: 61px;
+}
+
+.mobile-design-cont {
+  padding-left: 32px;
+  padding-right: 32px;
+  max-width: 812px;
+  margin: 0 auto;
+}
+
+.all-icons {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1110px;
+  gap: 30px;
+  padding-top: 72px;
+}
+
+.logo {
+ max-width: 125px;
+}
+
+.mobile-design {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.icon-container {
+  text-align: center;
+  width: 350px;
+}
+
+.icon-container h3 {
+  padding-top: 44px;
+}
+
+.mobile-design {
+  margin: 0 auto;
+}
+
+.logo-second-cont {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 118px;
+  padding-right: 118px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.icon-heading {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fdfdfd;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  color: #26BBA4;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.mobile-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.tags p {
+  color: #4C545C;
+}
+
+.asid-paragraph {
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+
+.asid-heading {
+  font-size: 24px;
+}
+@media (max-width:721px) {
+  .computer-section-image {
+    width: 375px;
+  }
+
+  .computer-card {
+    padding: 30px 50px;
+    justify-content: center;
+  }
+
+  .asid-part {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mobile-design {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .all-icons {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+  }
+
+  .icon-container {
+    margin: 0 auto;
+  }
+
+  .hero-class  {
+    width: 100%;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .logo-second-cont {
+    gap: 45px;
+  }
+
+  .footer {
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 108px;
+    padding-right: 108px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tags {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px ;
+  }
+  .all-heading-size {
+    padding: 0 20px;
+    padding-bottom: 16px;
+  }
+  .hero-paragraph {
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width:1330px) {
+  .computer-card {
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+  .mobile-design {
+    width: 100%;
+  }
+  .computer-card {
+    text-align: center;
+  }
+}
